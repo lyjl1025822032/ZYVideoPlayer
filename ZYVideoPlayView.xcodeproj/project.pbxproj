@@ -23,6 +23,8 @@
 		20119EA01F4AE19600AA4038 /* FFOrRewindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20119E9F1F4AE19600AA4038 /* FFOrRewindView.m */; };
 		2041BBE91F4BC0A000F0F758 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2041BBE71F4BC0A000F0F758 /* 1.png */; };
 		2041BBEA1F4BC0A000F0F758 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2041BBE81F4BC0A000F0F758 /* 2.png */; };
+		206AA8271F4ED8AC008F57DD /* CMAllMediaAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 206AA8261F4ED8AC008F57DD /* CMAllMediaAudioManager.m */; };
+		206AA82A1F4EDAD9008F57DD /* Kygo,Ed Sheeran - I See Fire (Kygo Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 206AA8291F4EDAD9008F57DD /* Kygo,Ed Sheeran - I See Fire (Kygo Remix).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,9 @@
 		20119E9F1F4AE19600AA4038 /* FFOrRewindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFOrRewindView.m; sourceTree = "<group>"; };
 		2041BBE71F4BC0A000F0F758 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		2041BBE81F4BC0A000F0F758 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		206AA8251F4ED8AC008F57DD /* CMAllMediaAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaAudioManager.h; sourceTree = "<group>"; };
+		206AA8261F4ED8AC008F57DD /* CMAllMediaAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaAudioManager.m; sourceTree = "<group>"; };
+		206AA8291F4EDAD9008F57DD /* Kygo,Ed Sheeran - I See Fire (Kygo Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kygo,Ed Sheeran - I See Fire (Kygo Remix).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +128,10 @@
 		20119E421F4AB7CC00AA4038 /* ZYVideoPlayView */ = {
 			isa = PBXGroup;
 			children = (
+				206AA8291F4EDAD9008F57DD /* Kygo,Ed Sheeran - I See Fire (Kygo Remix).mp3 */,
 				2041BBE61F4BC0A000F0F758 /* image */,
 				20119E791F4AB7E900AA4038 /* CMVideoManager */,
+				206AA8241F4ED8AC008F57DD /* CMAudioManager */,
 				20119E921F4ADEE600AA4038 /* Header.h */,
 				20119E461F4AB7CC00AA4038 /* AppDelegate.h */,
 				20119E471F4AB7CC00AA4038 /* AppDelegate.m */,
@@ -198,6 +205,15 @@
 				2041BBE81F4BC0A000F0F758 /* 2.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		206AA8241F4ED8AC008F57DD /* CMAudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				206AA8251F4ED8AC008F57DD /* CMAllMediaAudioManager.h */,
+				206AA8261F4ED8AC008F57DD /* CMAllMediaAudioManager.m */,
+			);
+			path = CMAudioManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +328,7 @@
 				20119E561F4AB7CC00AA4038 /* LaunchScreen.storyboard in Resources */,
 				2041BBE91F4BC0A000F0F758 /* 1.png in Resources */,
 				2041BBEA1F4BC0A000F0F758 /* 2.png in Resources */,
+				206AA82A1F4EDAD9008F57DD /* Kygo,Ed Sheeran - I See Fire (Kygo Remix).mp3 in Resources */,
 				20119E531F4AB7CC00AA4038 /* Assets.xcassets in Resources */,
 				20119E4E1F4AB7CC00AA4038 /* Main.storyboard in Resources */,
 			);
@@ -347,6 +364,7 @@
 				20119E851F4AB7E900AA4038 /* UIView+Layout.m in Sources */,
 				20119E511F4AB7CC00AA4038 /* ZYVideoPlayView.xcdatamodeld in Sources */,
 				20119E971F4AE07A00AA4038 /* VideoManager.m in Sources */,
+				206AA8271F4ED8AC008F57DD /* CMAllMediaAudioManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
